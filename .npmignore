@@ -1,0 +1,57 @@
+# Source files (keep only compiled .d.ts)
+*.ts
+!*.d.ts
+
+# Config files
+tsconfig.json
+.prettierrc
+.eslintrc
+
+# Development files
+*.test.ts
+test/
+tests/
+examples/
+examples.ts
+cli-test.ts
+quick-test.ts
+
+# Environment
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Git
+.git/
+.gitignore
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.tsbuildinfo
+
+# Documentation (keep README.md)
+docs/
+*.md
+!README.md
+!LICENSE
+
+# Dependencies
+node_modules/
+
+# Misc
+.editorconfig
+.npmrc
