@@ -9,6 +9,7 @@
     "prepare": "npm run build",
     "prepublishOnly": "npm run build",
     "dev": "tsc --watch",
+    "test": "echo \"No tests specified\" && exit 0",
     "clean": "rm -rf dist",
     "rebuild": "npm run clean && npm run build"
   },
