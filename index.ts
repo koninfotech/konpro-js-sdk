@@ -439,8 +439,24 @@ export class BrainsService {
     const response = await this.client.get<BaseResponse<Brain>>(`/v1/brains/${id}`);
     return response.data.data;
   }
+  /** 
+   * Create a new brain
+   */
 
-  /**
+  async create(data: {
+    name: string;
+    system_prompt: string;
+    llm_name: string;
+    knowledge_base_id?: UUID;
+  }): Promise<Brain> {
+    const response = await this.client.post<BaseResponse<Brain>>(
+      "/v1/brains",
+      data
+    );
+    return response.data.data;
+  }
+
+  /** 
    * Delete a brain
    */
   async delete(id: UUID): Promise<{ success: boolean; message: string }> {
