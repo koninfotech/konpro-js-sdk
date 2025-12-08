@@ -151,6 +151,17 @@ konpro.brains.list()
 konpro.brains.get(id)
 // Returns: Promise<Brain>
 
+// Create brain
+konpro.brains.create(
+  data: {
+    name: string;
+    system_prompt: string;
+    llm_name: string;
+    knowledge_base_id?: string;
+  }
+)
+// Returns: Promise<Brain>
+
 // Delete brain
 konpro.brains.delete(id)
 // Returns: Promise<{ success: boolean; message: string }>
