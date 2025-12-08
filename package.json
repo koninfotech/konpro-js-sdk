@@ -1,6 +1,6 @@
 {
   "name": "@konpro/js-sdk",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Official TypeScript SDK for KonPro's Public API - AI avatars, voices, and brain management",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
