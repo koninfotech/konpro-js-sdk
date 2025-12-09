@@ -167,6 +167,7 @@ export interface WidgetSession {
 
 export interface WidgetSessionCreate {
   agentic_avatar_id: string;
+  audio_only?: boolean;
   user_metadata?: Record<string, any>;
   allowed_origins?: string[];
 }
