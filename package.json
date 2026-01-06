@@ -1,0 +1,57 @@
+{
+  "name": "@konpro/js-sdk",
+  "version": "2.0.0",
+  "description": "Official TypeScript SDK for KonPro's Public API - AI avatars, voices, and brain management",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run build",
+    "dev": "tsc --watch",
+    "test": "echo \"No tests specified\" && exit 0",
+    "clean": "rimraf dist",
+    "rebuild": "npm run clean && npm run build"
+  },
+  "keywords": [
+    "konpro",
+    "ai",
+    "avatar",
+    "voice",
+    "sdk",
+    "typescript",
+    "api-client",
+    "agentic-avatar",
+    "voice-synthesis",
+    "ai-brain",
+    "speech",
+    "tts",
+    "text-to-speech",
+    "openapi"
+  ],
+  "author": "KonInfotech <support@konpro.ai> (https://konpro.ai)",
+  "license": "MIT",
+  "homepage": "https://konpro.ai",
+  "bugs": {
+    "url": "https://github.com/koninfotech/konpro-js-sdk/issues"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "rimraf": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koninfotech/konpro-js-sdk.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
