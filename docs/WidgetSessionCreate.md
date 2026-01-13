@@ -14,7 +14,7 @@ Name | Type
 ## Example
 
 ```typescript
-import type { WidgetSessionCreate } from 'konpro-sdk'
+import type { WidgetSessionCreate } from '@konpro/js-sdk'
 
 // TODO: Update the object below with actual values
 const example = {

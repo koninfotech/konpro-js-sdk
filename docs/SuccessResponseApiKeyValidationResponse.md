@@ -12,7 +12,7 @@ Name | Type
 ## Example
 
 ```typescript
-import type { SuccessResponseApiKeyValidationResponse } from 'konpro-sdk'
+import type { SuccessResponseApiKeyValidationResponse } from '@konpro/js-sdk'
 
 // TODO: Update the object below with actual values
 const example = {

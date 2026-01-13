@@ -24,11 +24,11 @@ Generate a temporary session token for embedding the widget on external websites
 import {
   Configuration,
   WidgetApi,
-} from 'konpro-sdk';
-import type { CreateWidgetSessionRequest } from 'konpro-sdk';
+} from '@konpro/js-sdk';
+import type { CreateWidgetSessionRequest } from '@konpro/js-sdk';
 
 async function example() {
-  console.log("🚀 Testing konpro-sdk SDK...");
+  console.log("🚀 Testing @konpro/js-sdk SDK...");
   const config = new Configuration({ 
     // To configure API key authorization: ApiKeyAuth
     apiKey: "YOUR API KEY",
@@ -96,11 +96,11 @@ Check if a widget session is still valid
 import {
   Configuration,
   WidgetApi,
-} from 'konpro-sdk';
-import type { GetWidgetSessionStatusRequest } from 'konpro-sdk';
+} from '@konpro/js-sdk';
+import type { GetWidgetSessionStatusRequest } from '@konpro/js-sdk';
 
 async function example() {
-  console.log("🚀 Testing konpro-sdk SDK...");
+  console.log("🚀 Testing @konpro/js-sdk SDK...");
   const config = new Configuration({ 
     // To configure API key authorization: ApiKeyAuth
     apiKey: "YOUR API KEY",
@@ -168,11 +168,11 @@ Revoke a widget session token before expiry
 import {
   Configuration,
   WidgetApi,
-} from 'konpro-sdk';
-import type { RevokeWidgetSessionRequest } from 'konpro-sdk';
+} from '@konpro/js-sdk';
+import type { RevokeWidgetSessionRequest } from '@konpro/js-sdk';
 
 async function example() {
-  console.log("🚀 Testing konpro-sdk SDK...");
+  console.log("🚀 Testing @konpro/js-sdk SDK...");
   const config = new Configuration({ 
     // To configure API key authorization: ApiKeyAuth
     apiKey: "YOUR API KEY",

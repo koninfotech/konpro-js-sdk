@@ -23,11 +23,11 @@ Create Agentic Avatar
 import {
   Configuration,
   AgenticAvatarsApi,
-} from 'konpro-sdk';
-import type { CreateAgenticAvatarRequest } from 'konpro-sdk';
+} from '@konpro/js-sdk';
+import type { CreateAgenticAvatarRequest } from '@konpro/js-sdk';
 
 async function example() {
-  console.log("🚀 Testing konpro-sdk SDK...");
+  console.log("🚀 Testing @konpro/js-sdk SDK...");
   const config = new Configuration({ 
     // To configure API key authorization: ApiKeyAuth
     apiKey: "YOUR API KEY",
@@ -93,11 +93,11 @@ Delete Agentic Avatar
 import {
   Configuration,
   AgenticAvatarsApi,
-} from 'konpro-sdk';
-import type { DeleteAgenticAvatarRequest } from 'konpro-sdk';
+} from '@konpro/js-sdk';
+import type { DeleteAgenticAvatarRequest } from '@konpro/js-sdk';
 
 async function example() {
-  console.log("🚀 Testing konpro-sdk SDK...");
+  console.log("🚀 Testing @konpro/js-sdk SDK...");
   const config = new Configuration({ 
     // To configure API key authorization: ApiKeyAuth
     apiKey: "YOUR API KEY",
@@ -163,11 +163,11 @@ Get Agentic Avatar
 import {
   Configuration,
   AgenticAvatarsApi,
-} from 'konpro-sdk';
-import type { GetAgenticAvatarRequest } from 'konpro-sdk';
+} from '@konpro/js-sdk';
+import type { GetAgenticAvatarRequest } from '@konpro/js-sdk';
 
 async function example() {
-  console.log("🚀 Testing konpro-sdk SDK...");
+  console.log("🚀 Testing @konpro/js-sdk SDK...");
   const config = new Configuration({ 
     // To configure API key authorization: ApiKeyAuth
     apiKey: "YOUR API KEY",
@@ -235,11 +235,11 @@ Get all user agentic avatars
 import {
   Configuration,
   AgenticAvatarsApi,
-} from 'konpro-sdk';
-import type { ListAgenticAvatarsRequest } from 'konpro-sdk';
+} from '@konpro/js-sdk';
+import type { ListAgenticAvatarsRequest } from '@konpro/js-sdk';
 
 async function example() {
-  console.log("🚀 Testing konpro-sdk SDK...");
+  console.log("🚀 Testing @konpro/js-sdk SDK...");
   const config = new Configuration({ 
     // To configure API key authorization: ApiKeyAuth
     apiKey: "YOUR API KEY",

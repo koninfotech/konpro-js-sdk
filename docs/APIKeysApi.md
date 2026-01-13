@@ -22,11 +22,11 @@ Validate an API key and get its details
 import {
   Configuration,
   APIKeysApi,
-} from 'konpro-sdk';
-import type { ValidateApiKeyRequest } from 'konpro-sdk';
+} from '@konpro/js-sdk';
+import type { ValidateApiKeyRequest } from '@konpro/js-sdk';
 
 async function example() {
-  console.log("🚀 Testing konpro-sdk SDK...");
+  console.log("🚀 Testing @konpro/js-sdk SDK...");
   const config = new Configuration({ 
     // To configure API key authorization: ApiKeyAuth
     apiKey: "YOUR API KEY",

@@ -20,7 +20,7 @@ Name | Type
 ## Example
 
 ```typescript
-import type { Voice } from 'konpro-sdk'
+import type { Voice } from '@konpro/js-sdk'
 
 // TODO: Update the object below with actual values
 const example = {

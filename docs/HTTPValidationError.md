@@ -11,7 +11,7 @@ Name | Type
 ## Example
 
 ```typescript
-import type { HTTPValidationError } from 'konpro-sdk'
+import type { HTTPValidationError } from '@konpro/js-sdk'
 
 // TODO: Update the object below with actual values
 const example = {

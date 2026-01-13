@@ -24,11 +24,11 @@ Delete your own avatar (requires API key authentication)
 import {
   Configuration,
   AvatarsApi,
-} from 'konpro-sdk';
-import type { DeleteAvatarRequest } from 'konpro-sdk';
+} from '@konpro/js-sdk';
+import type { DeleteAvatarRequest } from '@konpro/js-sdk';
 
 async function example() {
-  console.log("🚀 Testing konpro-sdk SDK...");
+  console.log("🚀 Testing @konpro/js-sdk SDK...");
   const config = new Configuration({ 
     // To configure API key authorization: ApiKeyAuth
     apiKey: "YOUR API KEY",
@@ -96,11 +96,11 @@ Get detailed information about a specific avatar
 import {
   Configuration,
   AvatarsApi,
-} from 'konpro-sdk';
-import type { GetAvatarRequest } from 'konpro-sdk';
+} from '@konpro/js-sdk';
+import type { GetAvatarRequest } from '@konpro/js-sdk';
 
 async function example() {
-  console.log("🚀 Testing konpro-sdk SDK...");
+  console.log("🚀 Testing @konpro/js-sdk SDK...");
   const config = new Configuration({ 
     // To configure API key authorization: ApiKeyAuth
     apiKey: "YOUR API KEY",
@@ -168,11 +168,11 @@ Get all public avatars with optional inclusion of your own avatars
 import {
   Configuration,
   AvatarsApi,
-} from 'konpro-sdk';
-import type { ListAvatarsRequest } from 'konpro-sdk';
+} from '@konpro/js-sdk';
+import type { ListAvatarsRequest } from '@konpro/js-sdk';
 
 async function example() {
-  console.log("🚀 Testing konpro-sdk SDK...");
+  console.log("🚀 Testing @konpro/js-sdk SDK...");
   const config = new Configuration({ 
     // To configure API key authorization: ApiKeyAuth
     apiKey: "YOUR API KEY",

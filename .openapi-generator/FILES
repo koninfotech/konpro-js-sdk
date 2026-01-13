@@ -1,7 +1,4 @@
-.gitignore
 .npmignore
-.openapi-generator-ignore
-README.md
 docs/APIKeysApi.md
 docs/AgenticAvatarCreate.md
 docs/AgenticAvatarResponse.md
@@ -34,7 +31,6 @@ docs/VoicesApi.md
 docs/WidgetApi.md
 docs/WidgetSessionCreate.md
 docs/WidgetSessionResponse.md
-package.json
 src/apis/APIKeysApi.ts
 src/apis/AgenticAvatarsApi.ts
 src/apis/AvatarsApi.ts
@@ -71,4 +67,3 @@ src/models/WidgetSessionCreate.ts
 src/models/WidgetSessionResponse.ts
 src/models/index.ts
 src/runtime.ts
-tsconfig.json

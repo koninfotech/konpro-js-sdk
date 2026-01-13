@@ -22,11 +22,11 @@ List voices - public API endpoint - API Key required for all scopes - Set &#x60;
 import {
   Configuration,
   VoicesApi,
-} from 'konpro-sdk';
-import type { ListVoicesRequest } from 'konpro-sdk';
+} from '@konpro/js-sdk';
+import type { ListVoicesRequest } from '@konpro/js-sdk';
 
 async function example() {
-  console.log("🚀 Testing konpro-sdk SDK...");
+  console.log("🚀 Testing @konpro/js-sdk SDK...");
   const config = new Configuration({ 
     // To configure API key authorization: ApiKeyAuth
     apiKey: "YOUR API KEY",

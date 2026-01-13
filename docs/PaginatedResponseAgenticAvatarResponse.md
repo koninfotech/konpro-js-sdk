@@ -12,7 +12,7 @@ Name | Type
 ## Example
 
 ```typescript
-import type { PaginatedResponseAgenticAvatarResponse } from 'konpro-sdk'
+import type { PaginatedResponseAgenticAvatarResponse } from '@konpro/js-sdk'
 
 // TODO: Update the object below with actual values
 const example = {

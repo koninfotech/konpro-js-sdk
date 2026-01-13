@@ -16,7 +16,7 @@ Name | Type
 ## Example
 
 ```typescript
-import type { AgenticAvatarCreate } from 'konpro-sdk'
+import type { AgenticAvatarCreate } from '@konpro/js-sdk'
 
 // TODO: Update the object below with actual values
 const example = {

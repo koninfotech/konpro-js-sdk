@@ -12,7 +12,7 @@ Name | Type
 ## Example
 
 ```typescript
-import type { SuccessResponseWidgetSessionResponse } from 'konpro-sdk'
+import type { SuccessResponseWidgetSessionResponse } from '@konpro/js-sdk'
 
 // TODO: Update the object below with actual values
 const example = {

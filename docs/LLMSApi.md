@@ -20,11 +20,11 @@ List all the llms
 import {
   Configuration,
   LLMSApi,
-} from 'konpro-sdk';
-import type { ListLlmsRequest } from 'konpro-sdk';
+} from '@konpro/js-sdk';
+import type { ListLlmsRequest } from '@konpro/js-sdk';
 
 async function example() {
-  console.log("🚀 Testing konpro-sdk SDK...");
+  console.log("🚀 Testing @konpro/js-sdk SDK...");
   const config = new Configuration({ 
     // To configure API key authorization: ApiKeyAuth
     apiKey: "YOUR API KEY",

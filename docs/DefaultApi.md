@@ -21,11 +21,11 @@ Health
 import {
   Configuration,
   DefaultApi,
-} from 'konpro-sdk';
-import type { HealthRequest } from 'konpro-sdk';
+} from '@konpro/js-sdk';
+import type { HealthRequest } from '@konpro/js-sdk';
 
 async function example() {
-  console.log("🚀 Testing konpro-sdk SDK...");
+  console.log("🚀 Testing @konpro/js-sdk SDK...");
   const config = new Configuration({ 
     // To configure API key authorization: ApiKeyAuth
     apiKey: "YOUR API KEY",
@@ -82,11 +82,11 @@ Root
 import {
   Configuration,
   DefaultApi,
-} from 'konpro-sdk';
-import type { RootRequest } from 'konpro-sdk';
+} from '@konpro/js-sdk';
+import type { RootRequest } from '@konpro/js-sdk';
 
 async function example() {
-  console.log("🚀 Testing konpro-sdk SDK...");
+  console.log("🚀 Testing @konpro/js-sdk SDK...");
   const config = new Configuration({ 
     // To configure API key authorization: ApiKeyAuth
     apiKey: "YOUR API KEY",
